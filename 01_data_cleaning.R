@@ -6,7 +6,7 @@ library(dplyr)
 library(raster)
 
 # Set working directory and load data
-setwd("/Users/bbett/Library/CloudStorage/OneDrive-CGIAR/Documents/OHC/Themes/EID/Students/Eugine")
+setwd("C:/Users/SA/Desktop/Msc/CCHFV/CCHFV R analyses")
 live <- read.csv("new_livestock.csv", header = TRUE)
 hum <- read.csv("human.csv", header = TRUE)
 wild <- read.csv("wildlife.csv", header = TRUE)
